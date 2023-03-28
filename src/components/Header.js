@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import HeroSection from "./HeroSection";
 import Nav from "./Nav";
 
 const Header = () => {
@@ -10,6 +11,7 @@ const Header = () => {
         <img src="./images/logo.png" alt="my logo img" />
       </NavLink>
       <Nav />
+      
     </MainHeader>
   );
 };

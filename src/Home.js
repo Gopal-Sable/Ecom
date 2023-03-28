@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
+import HeroSection from "./components/HeroSection";
+
 const Home = () => {
-  return <Wrapper className="test">Home</Wrapper>;
+  return <HeroSection name="Gops Store"/>
 };
 
 const Wrapper = styled.section`
