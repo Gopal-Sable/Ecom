@@ -37,16 +37,16 @@ const Footer = () => {
                     <h3>follow us on</h3>
                     <div className="footer-social--icons">
                         <div>
-                            <a target="_blank" href="https://discord.com/"><FaDiscord className='icons'/></a>    
+                            <a rel="noreferrer" target="_blank" href="https://discord.com/"><FaDiscord className='icons'/></a>    
                         </div>
                         <div>
-                            <a target="_blank" href="https://instagram.com/"><FaInstagram className='icons'/></a>    
+                            <a rel="noreferrer" target="_blank" href="https://instagram.com/"><FaInstagram className='icons'/></a>    
                         </div>
                         <div>
-                            <a target="_blank" href="https://twitter.com/"><FaTwitter className='icons'/></a>    
+                            <a rel="noreferrer" target="_blank" href="https://twitter.com/"><FaTwitter className='icons'/></a>    
                         </div>
                         <div>
-                            <a target="_blank" href="https://youtube.com/"><FaYoutube className='icons'/></a>    
+                            <a rel="noreferrer" target="_blank" href="https://youtube.com/"><FaYoutube className='icons'/></a>    
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const Footer = () => {
                      <p>@{new Date().getFullYear()} Gopal Sable. All Rights Reserved</p>
                      <div>
                         <p>PRIVACY POLICY</p>
-                        <p>TERMS & CONDITIONS</p>
+                        <p>TERMS & CONDITIO</p>
                      </div>
                 </div>
             </div>
