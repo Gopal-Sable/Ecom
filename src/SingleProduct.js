@@ -9,6 +9,7 @@ import FormatPrice from "./helper/FormatPrice";
 
 import { TbReplace, TbTruckDelivery } from "react-icons/tb"
 import { MdSecurity } from "react-icons/md";
+import Star from "./components/Star";
 const API = "https://api.pujakaitem.com/api/products"
 
 const SingleProduct = () => {
@@ -34,8 +35,8 @@ const SingleProduct = () => {
 
           <div className="product-data">
             <h2>{name}</h2>
-            <p>{stars}</p>
-            <p>{reviews}reviews</p>
+            <p><Star stars={stars} reviews={reviews}/></p>
+            {/* <p>{reviews}reviews</p> */}
             <p className="product-data-price">MRP: <del><FormatPrice price={price + 250000} /></del></p>
             <p className="product-data-price product-data-real-price">Deal of the Day:<FormatPrice price={price} /></p>
             <p>{description}</p>
