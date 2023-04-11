@@ -1,7 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import { useFilterContext } from "./context/FilterContext";
 
 const Products = () => {
+  const {filter_products}=useFilterContext()
+  
   return <Wrapper></Wrapper>;
 };
 
